@@ -14,4 +14,8 @@ public class Vegetable {
 		System.out.println("Vegetable is " +spinach.name);
 	
 	}	
+	String getType()
+	{
+		return name;
+	}
 }
